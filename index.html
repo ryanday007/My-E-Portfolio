@@ -3,18 +3,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My E-Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My E-Portfolio</title>
+
+  <!-- Google Font: Work Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+  <div class="page-wrapper">
+
  <!-- Navigation -->
   <nav class="main-nav">
     <ul>
       <li><a href="#hero">Home</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -22,7 +29,9 @@
 
   <!-- Hero Section -->
   <div class="section-wrapper" id="hero">
-    <!-- Content here -->
+    <img src="./images/Me BluGry BG 600x600.jpg" alt="Ryan E. Day">
+    <h1>Hi, I'm <span class="blue-text">Ryan E. Day</span></h1>
+    <p>I'm a <span class="blue-text">front-end developer</span> with a passion for turning website visions into functional realities.</p>
   </div>
 
   <!-- About Section -->
@@ -30,12 +39,7 @@
     <!-- Content here -->
   </div>
 
-<!-- Skills Section -->
-  <div class="section-wrapper" id="skills">
-    <!-- Content here -->
-  </div>
-
-  <!-- Projects Section -->
+ <!-- Projects Section -->
   <div class="section-wrapper" id="projects">
     <!-- Content here -->
   </div>
@@ -44,6 +48,6 @@
   <div class="section-wrapper" id="contact">
     <!-- Content here -->
   </div>
-
+</div> <!-- End of page-wrapper -->
 </body>
 </html>
