@@ -1,53 +1,96 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My E-Portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My E-Portfolio</title>
 
-  <!-- Google Font: Work Sans -->
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Google Font: Work Sans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="styles.css">
-</head>
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-  <div class="page-wrapper">
+  <body>
+    <div class="page-wrapper">
+      <!-- Navigation -->
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
- <!-- Navigation -->
-  <nav class="main-nav">
-    <ul>
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+      <!-- Hero Section -->
+      <div class="section-wrapper" id="hero">
+        <figure>
+          <img src="./images/Me BluGry BG 600x600.jpg" alt="Ryan E. Day" />
+        </figure>
+        <h1>Hi, I'm <span class="blue-text">Ryan E. Day</span></h1>
+        <p>
+          I'm a <span class="blue-text">front-end developer</span> with a
+          passion for turning website visions into functional realities.
+        </p>
+      </div>
 
-  <!-- Hero Section -->
-  <div class="section-wrapper" id="hero">
-    <img src="./images/Me BluGry BG 600x600.jpg" alt="Ryan E. Day">
-    <h1>Hi, I'm <span class="blue-text">Ryan E. Day</span></h1>
-    <p>I'm a <span class="blue-text">front-end developer</span> with a passion for turning website visions into functional realities.</p>
-  </div>
+      <!-- Skills Section -->
+      <div class="section-wrapper bg-dark" id="skills">
+        <h1 class="section-title">
+          My <span class="blue-text">Skills Stack</span>
+        </h1>
+        <div class="skills-container">
+          <div class="skill-item">
+            <img src="./images/HTML5 icon.jpg" alt="HTML5" />
+            <p>HTML5</p>
+          </div>
+          <div class="skill-item">
+            <img src="./images/css-3 icon copy.jpg" alt="CSS3" />
+            <p>CSS3</p>
+          </div>
+          <div class="skill-item">
+            <img src="./images/javascript-icon.jpg" alt="JavaScript" />
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-item">
+            <img src="./images/react-icon.jpg" alt="React" />
+            <p>React</p>
+          </div>
+        </div>
+      </div>
 
-  <!-- About Section -->
-  <div class="section-wrapper" id="about">
-    <!-- Content here -->
-  </div>
+      <!-- Projects Section -->
+      <div class="section-wrapper">
+        <div id="projects-container">
+          <figure>
+            <img src="./images/construction.jpg" alt="Under Construction" />
+          </figure>
+          <p>Project Sample Coming Soon</p>
+        </div>
+        <div id="projects-container">
+          <figure>
+            <img src="./images/construction.jpg" alt="Under Construction" />
+          </figure>
+          <p>Project Sample Coming Soon</p>
+        </div>
+        <div id="projects-container">
+          <figure>
+            <img src="./images/construction.jpg" alt="Under Construction" />
+          </figure>
+          <p>Project Sample Coming Soon</p>
+        </div>
+      </div>
 
- <!-- Projects Section -->
-  <div class="section-wrapper" id="projects">
-    <!-- Content here -->
-  </div>
-
-  <!-- Contact Section -->
-  <div class="section-wrapper" id="contact">
-    <!-- Content here -->
-  </div>
-</div> <!-- End of page-wrapper -->
-</body>
+      <!-- Contact Section -->
+      <div class="section-wrapper" id="contact">
+        <!-- Content here -->
+      </div>
+    </div>
+    <!-- End of page-wrapper -->
+  </body>
 </html>
