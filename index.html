@@ -16,14 +16,14 @@
   </head>
 
   <body>
-    <div class="page-wrapper">
+    <div class="page-wrapper" id="top">
       <!-- Navigation -->
       <nav class="main-nav">
         <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#hero">About</a></li>
+          <li><a href="#project-container">Projects</a></li>
+          <li><a class="anchor-primary" href="#contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -32,7 +32,7 @@
         <figure>
           <img src="./images/Me BluGry BG 600x600.jpg" alt="Ryan E. Day" />
         </figure>
-        <h1>Hi, I'm <span class="blue-text">Ryan E. Day</span></h1>
+        <h1>Hi, I'm <span class="blue-text">Ryan</span></h1>
         <p>
           I'm a <span class="blue-text">front-end developer</span> with a
           passion for turning website visions into functional realities.
@@ -41,44 +41,44 @@
 
       <!-- Skills Section -->
       <div class="section-wrapper bg-dark" id="skills">
-        <h1 class="section-title">
+        <h2>
           My <span class="blue-text">Skills Stack</span>
-        </h1>
+        </h2>
         <div class="skills-container">
           <div class="skill-item">
-            <img src="./images/HTML5 icon.jpg" alt="HTML5" />
-            <p>HTML5</p>
+            <p><img src="./images/HTML5 icon.jpg" alt="HTML5" /><br>
+            HTML5</p>
           </div>
           <div class="skill-item">
-            <img src="./images/css-3 icon copy.jpg" alt="CSS3" />
-            <p>CSS3</p>
+            <p></p><img src="./images/css-3 icon copy.jpg" alt="CSS3" />
+            <br>CSS3</p>
           </div>
           <div class="skill-item">
-            <img src="./images/javascript-icon.jpg" alt="JavaScript" />
-            <p>JavaScript</p>
+            <p></p><img src="./images/javascript-icon.jpg" alt="JavaScript" />
+            <br>JavaScript</p>
           </div>
           <div class="skill-item">
-            <img src="./images/react-icon.jpg" alt="React" />
-            <p>React</p>
+            <p></p><img src="./images/react-icon.jpg" alt="React" />
+            <br>React</p>
           </div>
         </div>
       </div>
 
       <!-- Projects Section -->
       <div class="section-wrapper">
-        <div id="projects-container">
+        <div id="project-container">
           <figure>
             <img src="./images/construction.jpg" alt="Under Construction" />
           </figure>
           <p>Project Sample Coming Soon</p>
         </div>
-        <div id="projects-container">
+        <div id="project-container">
           <figure>
             <img src="./images/construction.jpg" alt="Under Construction" />
           </figure>
           <p>Project Sample Coming Soon</p>
         </div>
-        <div id="projects-container">
+        <div id="project-container">
           <figure>
             <img src="./images/construction.jpg" alt="Under Construction" />
           </figure>
@@ -86,9 +86,9 @@
         </div>
       </div>
 
-      <!-- Contact Section -->
-      <div class="section-wrapper" id="contact">
-        <!-- Content here -->
+      <!-- Footer Section -->
+      <div class="section-wrapper.bg-dark" id="footer">
+        <p>Copyright Ryan E. Day</p>
       </div>
     </div>
     <!-- End of page-wrapper -->
